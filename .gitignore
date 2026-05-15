@@ -1,0 +1,28 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code local settings
+.vscode/
+
+# Obsidian local workspace settings
+.obsidian/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Node
+node_modules/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Secrets
+*.key
+*.pem
+*.env
+.env.*
