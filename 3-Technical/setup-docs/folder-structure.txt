@@ -1,0 +1,36 @@
+New-Item -ItemType Directory -Force -Path `
+"0-Governance", `
+"1-Planning", `
+"2-Working-Docs", `
+"3-Technical", `
+"4-Reports", `
+"9-Archive"
+
+New-Item -ItemType File -Force -Path `
+"README.md", `
+".gitignore", `
+"0-Governance\PROJECT-CHARTER.md", `
+"0-Governance\BUSINESS-CASE.md", `
+"0-Governance\STAKEHOLDER-REGISTER.md", `
+"0-Governance\COMMUNICATION-PLAN.md", `
+"0-Governance\DECISION-LOG.md", `
+"0-Governance\RISK-REGISTER.md", `
+"0-Governance\ISSUE-LOG.md", `
+"0-Governance\CHANGE-LOG.md", `
+"0-Governance\DATA-GOVERNANCE.md", `
+"0-Governance\SECURITY-ASSESSMENT.md", `
+"0-Governance\AI-GOVERNANCE-POLICY.md", `
+"1-Planning\ROADMAP.md", `
+"1-Planning\BACKLOG.md", `
+"1-Planning\REQUIREMENTS.md", `
+"1-Planning\MILESTONES.md", `
+"2-Working-Docs\MEETING-NOTES.md", `
+"2-Working-Docs\WORKING-NOTES.md", `
+"2-Working-Docs\RESEARCH-NOTES.md", `
+"3-Technical\SYSTEM-OVERVIEW.md", `
+"3-Technical\DATA-MODEL.md", `
+"3-Technical\WORKFLOW-DESIGN.md", `
+"3-Technical\INTEGRATION-NOTES.md", `
+"4-Reports\STATUS-REPORTS.md", `
+"4-Reports\LESSONS-LEARNED.md", `
+"9-Archive\README.md"

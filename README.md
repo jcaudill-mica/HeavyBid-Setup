@@ -87,80 +87,53 @@ Key areas of attention include:
 
 ## Documentation Structure
 
-The project documentation should be organized so that both technical users and decision-makers can understand the system.
+The project documentation is organized into a simple numbered folder structure. The intent is to separate governance, planning, working notes, technical design, reporting, and archived materials while keeping the root project directory clean.
 
-A recommended structure is:
+The active project structure is:
 
 ```text
 HB-Setup/
 │
 ├── README.md
+├── .gitignore
 │
-├── 00_Project_Governance/
-│   ├── Project_Charter.md
-│   ├── Executive_Summary.md
-│   ├── Decision_Log.md
-│   ├── Risk_Register.md
-│   ├── Issue_Log.md
-│   └── Change_Control.md
+├── 0-Governance/
+│   ├── PROJECT-CHARTER.md
+│   ├── BUSINESS-CASE.md
+│   ├── STAKEHOLDER-REGISTER.md
+│   ├── COMMUNICATION-PLAN.md
+│   ├── DECISION-LOG.md
+│   ├── RISK-REGISTER.md
+│   ├── ISSUE-LOG.md
+│   ├── CHANGE-LOG.md
+│   ├── DATA-GOVERNANCE.md
+│   ├── SECURITY-ASSESSMENT.md
+│   └── AI-GOVERNANCE-POLICY.md
 │
-├── 01_Current_State/
-│   ├── Current_State_Assessment.md
-│   ├── Existing_Codebooks_Review.md
-│   ├── Current_Workflows.md
-│   └── Known_Gaps.md
+├── 1-Planning/
+│   ├── ROADMAP.md
+│   ├── BACKLOG.md
+│   ├── REQUIREMENTS.md
+│   └── MILESTONES.md
 │
-├── 02_Target_State/
-│   ├── Target_State_Overview.md
-│   ├── Estimating_System_Principles.md
-│   ├── HeavyBid_to_HeavyJob_Strategy.md
-│   └── Reporting_and_Data_Strategy.md
+├── 2-Working-Docs/
+│   ├── MEETING-NOTES.md
+│   ├── WORKING-NOTES.md
+│   └── RESEARCH-NOTES.md
 │
-├── 03_Codebooks/
-│   ├── Bid_Item_Codebook.md
-│   ├── Activity_Codebook.md
-│   ├── Material_Codebook.md
-│   ├── Labor_Codebook.md
-│   ├── Equipment_Codebook.md
-│   ├── Crew_Codebook.md
-│   └── Subcontractor_Vendor_Setup.md
+├── 3-Technical/
+│   ├── SYSTEM-OVERVIEW.md
+│   ├── DATA-MODEL.md
+│   ├── WORKFLOW-DESIGN.md
+│   └── INTEGRATION-NOTES.md
 │
-├── 04_Estimate_Templates/
-│   ├── Standard_Estimate_Template.md
-│   ├── Roadway_Illumination_Template.md
-│   ├── Signalization_Template.md
-│   └── Specialty_Work_Templates.md
+├── 4-Reports/
+│   ├── STATUS-REPORTS.md
+│   └── LESSONS-LEARNED.md
 │
-├── 05_Processes/
-│   ├── Estimate_Setup_Process.md
-│   ├── Quote_Management_Process.md
-│   ├── Bid_Review_Process.md
-│   ├── Estimate_Closeout_Process.md
-│   └── HeavyJob_Transfer_Process.md
-│
-├── 06_Data_and_Reporting/
-│   ├── Data_Governance.md
-│   ├── Reporting_Requirements.md
-│   ├── Cost_Code_Mapping.md
-│   └── Export_and_Integration_Notes.md
-│
-├── 07_Security_and_Access/
-│   ├── Security_Assessment.md
-│   ├── User_Roles_and_Access.md
-│   └── Credentials_and_Permissions.md
-│
-├── 08_Reference/
-│   ├── HCSS_Reference_Notes.md
-│   ├── Terminology.md
-│   ├── Training_Notes.md
-│   └── Meeting_Notes.md
-│
-└── 09_Archive/
-    ├── Superseded_Documents/
-    ├── Legacy_Exports/
-    └── Historical_Notes/
-````
-
+└── 9-Archive/
+    └── README.md
+```
 ---
 
 ## Guiding Principles
@@ -382,10 +355,9 @@ This README should be reviewed and updated when:
 * The documentation structure changes.
 * The project moves from setup into production support.
 
-````
+## Change Log
 
-A tighter **executive-style opening summary** could also be added near the top:
-
-```markdown
-
-````
+| Version | Date | Author | Description of Change |
+|---|---:|---|---|
+| v0.1 | 2026-05-15 | James Caudill | Initial README draft created for the HeavyBid Setup project. Included project purpose, objectives, scope, guiding principles, key system areas, governance approach, risks, deliverables, working status, and suggested next steps. |
+| v0.2 | 2026-05-15 | James Caudill | Updated the Documentation Structure section to align with the approved numbered project folder structure: `0-Governance`, `1-Planning`, `2-Working-Docs`, `3-Technical`, `4-Reports`, and `9-Archive`. |
