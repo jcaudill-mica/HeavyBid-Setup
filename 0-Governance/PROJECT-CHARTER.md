@@ -2,7 +2,7 @@
 
 ## HeavyBid Setup Project
 
-**Document Status:** Draft v0.1
+**Document Status:** Draft v0.2
 **Project Name:** HeavyBid Setup Project
 **Short Name:** HB Setup
 **Organization:** MICA Corporation
@@ -122,7 +122,7 @@ The project should produce the following deliverables:
 * Project Charter
 * Business Case
 * README / project overview
-* Project governance document
+* Communication Plan document
 * Decision log
 * Risk register
 * Change control process
@@ -349,3 +349,21 @@ Approval of this charter authorizes the HB Setup Project to proceed as a structu
 The HeavyBid Setup Project exists to transform HeavyBid from a software implementation into a governed estimating system. The project will define, organize, document, and validate the structures needed for consistent estimating, practical project handoff, and future analytics.
 
 The immediate priority is to establish a clear foundation: understand the current state, document key decisions, define setup standards, and build enough structure to support controlled progress without locking the company into poorly understood assumptions.
+
+
+---
+
+## Document Change Log
+
+| Version |       Date | Author        | Change Summary                                                                                            | Reason / Notes                                                                                                                                                       |
+| ------- | ---------: | ------------- | --------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| v0.1    | 2026-05-15 | James Caudill | Initial draft of the Project Charter created.                                                             | Established the baseline charter structure, including purpose, scope, objectives, deliverables, stakeholders, risks, assumptions, constraints, and approval section. |
+| v0.2    | 2026-05-15 | James Caudill | Updated Key Deliverables section: changed “Project Governance Document” to “Communication Plan document.” | Revision clarifies that the project requires a dedicated communication planning artifact as part of the core governance/documentation package.                       |
+
+### Change Log Maintenance Notes
+
+* Add a new row each time the document is materially revised.
+* Increment the version number for meaningful content changes.
+* Minor spelling, formatting, or punctuation edits may be recorded only when useful.
+* Use the **Change Summary** field to describe what changed.
+* Use the **Reason / Notes** field to explain why the change was made or what decision it reflects.
