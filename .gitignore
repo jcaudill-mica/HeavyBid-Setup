@@ -1,28 +1,46 @@
-# OS files
-.DS_Store
-Thumbs.db
-
-# VS Code local settings
-.vscode/
-
-# Obsidian local workspace settings
-.obsidian/
+# Secrets
+.env
+*.key
+*.pem
+secrets/
+credentials/
 
 # Python
 __pycache__/
 *.pyc
 .venv/
-.env
+venv/
+.ipynb_checkpoints/
 
-# Node
+# Node / TypeScript
 node_modules/
+dist/
+build/
+.env.local
 
-# Logs and temporary files
-*.log
-*.tmp
+# Local AI / vector data
+*.sqlite
+*.db
+*.duckdb
+7-DATA/embeddings/*
+7-DATA/vector-indexes/*
+workspace/*
+!workspace/.gitkeep
 
-# Secrets
-*.key
-*.pem
-*.env
-.env.*
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/settings.json
+
+# Ignore generated document exports by default
+*.docx
+*.pdf
+*.html
+*.rtf
+
+# Allow intentionally preserved deliverables
+!4-REPORTS/generated/approved/**/*.docx
+!9-ARCHIVE/approved-documents/**/*.docx
+
+# Obsidian local workspace/settings
+.obsidian/
