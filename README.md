@@ -134,6 +134,7 @@ HB-Setup/
 └── 9-Archive/
     └── README.md
 ```
+
 ---
 
 ## Guiding Principles
@@ -176,13 +177,13 @@ The Bid Item Codebook serves as a central bridge between owner pay items and int
 
 Key concerns:
 
-* Client pay item structure
-* Internal item organization
-* Bid item descriptions
-* Units of measure
-* Reusable bid item logic
-* Mapping to activities and resources
-* Future reporting value
+- Client pay item structure
+- Internal item organization
+- Bid item descriptions
+- Units of measure
+- Reusable bid item logic
+- Mapping to activities and resources
+- Future reporting value
 
 ---
 
@@ -192,13 +193,13 @@ The Activity Codebook should describe work in a way that supports production-bas
 
 Key concerns:
 
-* Activity naming conventions
-* Cost code structure
-* Relationship to bid items
-* Relationship to crews and resources
-* Quantity and unit conversions
-* Compatibility with HeavyJob transfer
-* Avoiding excessive fragmentation or oversimplification
+- Activity naming conventions
+- Cost code structure
+- Relationship to bid items
+- Relationship to crews and resources
+- Quantity and unit conversions
+- Compatibility with HeavyJob transfer
+- Avoiding excessive fragmentation or oversimplification
 
 ---
 
@@ -208,12 +209,12 @@ The Material Codebook should describe what the material is, not merely what it i
 
 Key concerns:
 
-* General-to-specific organization
-* Vendor quote support
-* Quote folder mapping
-* Reusable material descriptions
-* Avoiding duplicate or near-duplicate materials
-* Supporting both estimating and purchasing workflows
+- General-to-specific organization
+- Vendor quote support
+- Quote folder mapping
+- Reusable material descriptions
+- Avoiding duplicate or near-duplicate materials
+- Supporting both estimating and purchasing workflows
 
 ---
 
@@ -223,13 +224,13 @@ The quote system should support organized vendor and subcontractor comparison.
 
 Key concerns:
 
-* Quote folders
-* Material and subcontractor quote organization
-* Side-by-side comparison
-* Plug numbers
-* Late quote adjustments
-* Traceability of selected quotes
-* Clear review process
+- Quote folders
+- Material and subcontractor quote organization
+- Side-by-side comparison
+- Plug numbers
+- Late quote adjustments
+- Traceability of selected quotes
+- Clear review process
 
 ---
 
@@ -239,13 +240,13 @@ Templates and assemblies should reduce repetitive work while preserving estimato
 
 Key concerns:
 
-* Standard estimate structure
-* Reusable assemblies
-* Roadway illumination assemblies
-* Signalization assemblies
-* Conduit calculations
-* Crew/productivity assumptions
-* Template governance
+- Standard estimate structure
+- Reusable assemblies
+- Roadway illumination assemblies
+- Signalization assemblies
+- Conduit calculations
+- Crew/productivity assumptions
+- Template governance
 
 ---
 
@@ -255,27 +256,27 @@ Governance is required so that the HeavyBid setup remains stable, understandable
 
 Recommended governance documents include:
 
-* Project Charter
-* Executive Summary
-* Decision Log
-* Risk Register
-* Issue Log
-* Change Control Procedure
-* Data Governance Document
-* Security Assessment
-* User Roles and Access Matrix
-* Codebook Maintenance Guidelines
-* Estimate Template Maintenance Guidelines
+- Project Charter
+- Executive Summary
+- Decision Log
+- Risk Register
+- Issue Log
+- Change Control Procedure
+- Data Governance Document
+- Security Assessment
+- User Roles and Access Matrix
+- Codebook Maintenance Guidelines
+- Estimate Template Maintenance Guidelines
 
 Governance should answer:
 
-* Who can change shared codebooks?
-* Who approves structural changes?
-* How are changes tested?
-* How are changes documented?
-* How are old versions preserved?
-* How are estimate templates reviewed?
-* How are downstream impacts checked?
+- Who can change shared codebooks?
+- Who approves structural changes?
+- How are changes tested?
+- How are changes documented?
+- How are old versions preserved?
+- How are estimate templates reviewed?
+- How are downstream impacts checked?
 
 ---
 
@@ -283,14 +284,14 @@ Governance should answer:
 
 Known or likely project risks include:
 
-* Moving too quickly to production before setup decisions are fully understood.
-* Carrying forward flawed early configuration because it appears to work in a simple test.
-* Creating codebooks without clear naming or maintenance standards.
-* Overbuilding detail that becomes difficult for estimators to use.
-* Underbuilding detail that weakens reporting and HeavyJob transfer.
-* Lack of documentation around key setup decisions.
-* Misalignment between estimating structure and accounting or field tracking structures.
-* Limited organizational understanding of how HeavyBid setup affects downstream systems.
+- Moving too quickly to production before setup decisions are fully understood.
+- Carrying forward flawed early configuration because it appears to work in a simple test.
+- Creating codebooks without clear naming or maintenance standards.
+- Overbuilding detail that becomes difficult for estimators to use.
+- Underbuilding detail that weakens reporting and HeavyJob transfer.
+- Lack of documentation around key setup decisions.
+- Misalignment between estimating structure and accounting or field tracking structures.
+- Limited organizational understanding of how HeavyBid setup affects downstream systems.
 
 ---
 
@@ -298,17 +299,17 @@ Known or likely project risks include:
 
 Initial deliverables should include:
 
-* README.md
-* Project Charter
-* Executive Summary
-* Current State Assessment
-* Data Governance Document
-* Security Assessment
-* Decision Log
-* Risk Register
-* Codebook Review Notes
-* Target State Overview
-* HeavyBid-to-HeavyJob Transfer Strategy
+- README.md
+- Project Charter
+- Executive Summary
+- Current State Assessment
+- Data Governance Document
+- Security Assessment
+- Decision Log
+- Risk Register
+- Codebook Review Notes
+- Target State Overview
+- HeavyBid-to-HeavyJob Transfer Strategy
 
 ---
 
@@ -347,17 +348,17 @@ The project steward is not necessarily the only person making decisions, but sho
 
 This README should be reviewed and updated when:
 
-* Major setup milestones are completed.
-* Governance documents are added or revised.
-* Codebook strategy changes.
-* HeavyBid-to-HeavyJob workflow assumptions change.
-* New project risks are identified.
-* The documentation structure changes.
-* The project moves from setup into production support.
+- Major setup milestones are completed.
+- Governance documents are added or revised.
+- Codebook strategy changes.
+- HeavyBid-to-HeavyJob workflow assumptions change.
+- New project risks are identified.
+- The documentation structure changes.
+- The project moves from setup into production support.
 
 ## Change Log
 
 | Version | Date | Author | Description of Change |
-|---|---:|---|---|
+| --- | ---: | --- | --- |
 | v0.1 | 2026-05-15 | James Caudill | Initial README draft created for the HeavyBid Setup project. Included project purpose, objectives, scope, guiding principles, key system areas, governance approach, risks, deliverables, working status, and suggested next steps. |
 | v0.2 | 2026-05-15 | James Caudill | Updated the Documentation Structure section to align with the approved numbered project folder structure: `0-Governance`, `1-Planning`, `2-Working-Docs`, `3-Technical`, `4-Reports`, and `9-Archive`. |

@@ -350,7 +350,6 @@ The HeavyBid Setup Project exists to transform HeavyBid from a software implemen
 
 The immediate priority is to establish a clear foundation: understand the current state, document key decisions, define setup standards, and build enough structure to support controlled progress without locking the company into poorly understood assumptions.
 
-
 ---
 
 ## Document Change Log
